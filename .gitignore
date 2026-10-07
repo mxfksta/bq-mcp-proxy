@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.venv/
+.env
+# internal setup guide (contains project-specific IDs)
+bigquery-mcp-langdock-proxy-guide.md
