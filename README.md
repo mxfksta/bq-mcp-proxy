@@ -28,4 +28,4 @@ gcloud run deploy bq-mcp-proxy \
   --max-instances 3 --timeout 300 --memory 256Mi
 ```
 
-Endpoints: `/mcp` (proxied, requires `Authorization: Bearer <key>` or `X-API-Key`), `/healthz`.
+Endpoints: `/mcp` (proxied, requires `Authorization: Bearer <key>` or `X-API-Key`), `/health`.

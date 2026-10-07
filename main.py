@@ -102,7 +102,7 @@ def make_app() -> web.Application:
     app = web.Application()
     app.on_startup.append(on_startup)
     app.on_cleanup.append(on_cleanup)
-    app.router.add_get("/healthz", health)
+    app.router.add_get("/health", health)
     app.router.add_route("*", "/mcp", proxy)
     return app
 
